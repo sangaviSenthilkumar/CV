@@ -1,0 +1,112 @@
+body{
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+}
+aside{
+    
+    height: 100vh;
+    background-color: antiquewhite;
+    border: 3px solid white;
+    font-size: 3vmin;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+aside ul li a:hover
+  {
+      background-color:brown;
+      width: 100%;
+      height: 100px;
+      color: white;
+  }
+  #accomplishments{
+    height: 100vh;
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+  }
+  #projects{
+    height: 100vh;
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+  }
+  #skills{
+    height: 100vh;
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+  }
+  #reference{
+    height: 100vh;
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+  }
+  #Education{
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+}
+#certifications{
+    background-color: brown;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+}
+  #tag{
+    text-decoration: underline;
+  }
+  a:link { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:visited { 
+    text-decoration: none;
+    color: black; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+    font-size:4vmin; 
+    color: white;
+  } 
+  a:active { 
+    text-decoration: none; 
+    font-size:4vmin; 
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+  }
+  h3+ul {
+    list-style-type: square;
+  }
+  

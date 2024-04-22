@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#Home{
+    background-color: brown;
+    border: 3px solid white ;
+}
+aside{
+    background-color: antiquewhite;
+    border: 3px solid white;
+    font-size: 3vmin;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+summary{
+    background-color: beige;
+    border: 3px solid white;
+    padding: 20px;
+    font-size: 3vmin;
+    font-family: 'Times New Roman', Times, serif;
+        word-spacing: 4px;
+        line-height: 25px;
+}
+div img{
+    height: 40%;
+    width: 80%;
+    border-radius: 50px ;
+    overflow: hidden;
+    border: 3px solid white;
+    margin: 20px;
+}
+div pre{
+    padding: 10px;
+    color: white;
+    font-size: 3vmin ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#con{
+    color: white;
+    text-decoration: underline;
+}
+aside ul li a:hover
+  {
+      background-color:brown;
+      width: 100%;
+      height: 100px;
+      color: white;
+  }
+  a:link { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:visited { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: white;
+    font-size:4vmin; 
+  } 
+  a:active { 
+    text-decoration: none; 
+    color: white;
+    font-size:4vmin; 
+  }
+  ul {
+    list-style-type: none;
+  }
+  
